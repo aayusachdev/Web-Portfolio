@@ -366,14 +366,24 @@ body {
 }
 
 .btn {
-  background: #191a1e;
+  background: transparent;
   color: #fff;
+  border: 1.2px solid #d1a364;
   display: inline-block;
-  padding: 3.5vh 3vw;
+  padding: 3.5vh 3.5vw;
   line-height: 0px;
   border-radius: 30px;
   position: relative;
   font-family: "Silka-Medium", sans-serif;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #d1a364;
+  opacity: 0.9;
+  -webkit-transition: all 1.35s cubic-bezier(0.19, 0.1, 0.22, 1);
+  transition: all 1.35s cubic-bezier(0.19, 0.1, 0.22, 1);
 }
 
 .btn img {
@@ -587,6 +597,7 @@ body {
 .section-abt__header {
   position: relative;
   display: inline;
+  letter-spacing: 0.08em;
   z-index: 1;
 }
 .section-abt__header:after {
