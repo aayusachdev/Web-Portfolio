@@ -8,7 +8,7 @@
   left: 0;
   overflow: hidden;
 }
-
+/*
 .overlay .logo {
   position: absolute;
   top: 48%;
@@ -16,6 +16,12 @@
   color: #f2f2f2;
   transform: translate(-50%, 0);
   animation: textAnimation 1.8s;
+} */
+
+.overlay h2 {
+  color: #000000;
+  text-align: center;
+  margin-top: 35vh;
 }
 
 .overlayclick {
@@ -44,8 +50,11 @@
 /*Removed .loaded from here*/
 
 .loaded .overlay {
+  background-color: #f2f2f2;
+  animation-delay: 7s;
   animation: overlayAnimation 1.2s;
   -moz-animation: overlayAnimation 1.2s; /* Firefox */
+  -webkit-animation-delay: 7s;
   -webkit-animation: overlayAnimation 1.2s; /* Safari and Chrome */
   -o-animation: overlayAnimation 1.2s; /* Opera */
   height: 0;
