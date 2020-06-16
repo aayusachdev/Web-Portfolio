@@ -369,7 +369,7 @@ body {
   color: #fff;
   border: 1.2px solid #d1a364;
   display: inline-block;
-  padding: 23px 30px 23px 34px;
+  padding: 23px 30px 23px 20px;
   line-height: 0px;
   border-radius: 30px;
   position: relative;
@@ -1049,8 +1049,7 @@ body {
   }
 
   .btn {
-    /* padding-right: 5vw; */
-    background-color: #d1a364;
+    padding: 23px 30px 23px 20px;
   }
   .section-abt__content {
     line-height: 30px;
