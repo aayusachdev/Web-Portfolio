@@ -11,7 +11,7 @@ window.yall = function (userOptions) {
 
   // This function handles the lazy loading of elements. It's kicked off by the
   // scroll handlers/intersection observers further down.
-  let yallLoad = function(element) {
+  let yallLoad = function (element) {
     // Lazy load <img> elements
     if (element.tagName === "IMG") {
       let parentElement = element.parentNode;
@@ -54,7 +54,7 @@ window.yall = function (userOptions) {
   // Added because there was a number of patterns like this peppered throughout
   // the code. This just flips all the data- attrs on an element (after checking
   // to make sure the data attr is in a whitelist to avoid changing *all* of them)
-  let yallFlipDataAttrs = function(element) {
+  let yallFlipDataAttrs = function (element) {
     for (let dataAttribute in element.dataset) {
       if (env.acceptedDataAttributes.indexOf(`data-${dataAttribute}`) !== -1) {
         element.setAttribute(dataAttribute, element.dataset[dataAttribute]);
@@ -65,7 +65,7 @@ window.yall = function (userOptions) {
 
   // When intersection observer is unavailable, this function is bound to scroll
   // (and other) event handlers to load images the "old" way.
-  let yallBack = function() {
+  let yallBack = function () {
     let active = false;
 
     if (active === false && lazyElements.length > 0) {
