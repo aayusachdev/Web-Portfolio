@@ -292,7 +292,7 @@ body {
 
 .demo {
   /*TODO: Need to write a media query for this center align issue*/
-  margin-left: 35vw;
+  margin-left: 38vw;
   align-self: flex-start;
 }
 
@@ -537,7 +537,7 @@ body {
 .section-abt {
   width: 100%;
   padding: 0 20px;
-  margin-top: 2%;
+  margin-top: 1%;
   font-family: "Silka-Medium", sans-serif;
   text-align: center;
   height: 100vh;
@@ -565,8 +565,9 @@ body {
 }
 
 .section-abt__content {
-  margin: 30px 2% 30px 2%;
+  margin: 30px 5% 30px 5%;
   line-height: 30px;
+  text-align: justify;
 }
 .top-bar-home.false {
   display: none;
@@ -1052,6 +1053,7 @@ body {
     padding: 23px 30px 23px 20px;
   }
   .section-abt__content {
+    margin: 30px 5% 30px 5%;
     line-height: 30px;
     text-align: justify;
   }
