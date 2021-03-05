@@ -359,11 +359,17 @@
 }
 
 #menu li a {
-  color: #fff;
+  /* color: #fff;
   line-height: 60px;
   font-size: 10vh;
   padding: 12px 0;
+  display: block; */
+  color: #fff;
+  line-height: 95px;
+  font-size: 12vh;
+  padding: 25px 0;
   display: block;
+}
 }
 
 #menu li a:hover {

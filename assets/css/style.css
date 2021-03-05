@@ -1921,3 +1921,22 @@ p,
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
+
+/* ------------------------- Contact Me page -------------------------------------------------- */
+
+.contact-container{
+/* border: 2px solid red; */
+margin-top: 5vh;
+}
+
+.contact-text {
+color:  #d4ad8f;
+}
+.contact-text span{
+  color: #191a1e;
+}
+
+.social-icons{
+ display: block;
+ text-align: center;
+}
